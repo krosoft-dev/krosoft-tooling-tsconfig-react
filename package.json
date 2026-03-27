@@ -1,0 +1,18 @@
+{
+  "name": "@krosoft/tooling-tsconfig-react",
+  "version": "0.0.1",
+  "description": "Shared TypeScript configuration for React projects",
+  "type": "module",
+  "exports": {
+    ".": "./tsconfig.react.json"
+  },
+  "files": [
+    "tsconfig.react.json"
+  ],
+  "peerDependencies": {
+    "@krosoft/tooling-tsconfig": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
