@@ -6,9 +6,6 @@
     "allowImportingTsExtensions": true,
     "noEmit": true,
     "useDefineForClassFields": true,
-    "noFallthroughCasesInSwitch": false,
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "noFallthroughCasesInSwitch": false
   }
 }
